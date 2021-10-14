@@ -1,6 +1,6 @@
 # Frontend Mentor - Four Card Feature Section Solution
 
-This is a solution to the [Four Card Feature Section Solution Challenge on Frontend Mentor]({LINK})
+This is a solution to the [Four Card Feature Section Solution Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
 
 ## Table of contents
 
@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: []()
-- Live Site URL: []()
+- Live Site URL: [https://rafo38kh.github.io/four-card-feature-section/](https://rafo38kh.github.io/four-card-feature-section/)
 
 ## My process
 
