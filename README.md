@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/four-card-feature-section-with-scss-bem-css-grid-and-flexbox-x1D0Ix1sv](https://www.frontendmentor.io/solutions/four-card-feature-section-with-scss-bem-css-grid-and-flexbox-x1D0Ix1sv)
 - Live Site URL: [https://rafo38kh.github.io/four-card-feature-section/](https://rafo38kh.github.io/four-card-feature-section/)
 
 ## My process
@@ -36,6 +36,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - SCSS custom properties
 - CSS Flexbox
+- CSS Grid
 - Mobile-first workflow
 
 ## Author
