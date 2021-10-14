@@ -1,0 +1,187 @@
+.content {
+  margin: 10rem 2rem;
+  @media (min-width: 1140px) {
+    margin: 8rem 2rem;
+  }
+  &__text {
+    text-align: center;
+  }
+
+  &__heading {
+    color: $color-secondary-Dark;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: block;
+    @media (min-width: 768px) {
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 3rem;
+      font-size: 3rem;
+    }
+    @media (min-width: 1140px) {
+      width: 45%;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+      font-size: 3.5rem;
+    }
+
+    &-span {
+      font-weight: 200;
+    }
+  }
+
+  &__paragraph {
+    font-size: 1.5rem;
+    color: $color-secondary;
+    margin-bottom: 9rem;
+    @media (min-width: 768px) {
+      width: 70%;
+      margin: 0 auto;
+      margin-bottom: 4rem;
+      font-size: 1.7rem;
+    }
+    @media (min-width: 1140px) {
+      width: 42%;
+      font-size: 1.5rem;
+      margin-bottom: 6rem;
+    }
+  }
+
+  &__cards {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 32rem;
+    grid-gap: 2.5rem;
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 32rem);
+    }
+    @media (min-width: 1140px) {
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 34.8rem);
+      grid-gap: 3rem 3rem;
+    }
+  }
+
+  &__card {
+    background-color: white;
+    padding: 3rem 3rem;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(84, 158, 242, 0.11) 0px 20px 25px -10px,
+      rgba(76, 78, 97, 0.09) 0px 20px 15px -5px;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      height: 0.4rem;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    @media (min-width: 1140px) {
+      padding: 3.8rem 3rem;
+    }
+
+    &-title {
+      font-size: 1.9rem;
+      padding-bottom: 1rem;
+      color: $color-secondary-Dark;
+      @media (min-width: 768px) {
+        font-size: 2.1rem;
+      }
+      @media (min-width: 1140px) {
+        font-size: 2rem;
+      }
+    }
+
+    &-description {
+      font-size: 1.3rem;
+      color: $color-secondary;
+      padding-bottom: 3rem;
+      @media (min-width: 768px) {
+        font-size: 1.4rem;
+      }
+      @media (min-width: 1140px) {
+        font-size: 1.3rem;
+        padding-bottom: 3.4rem;
+      }
+    }
+
+    &-picture {
+      align-self: flex-end;
+      width: 5.7rem;
+      @media (min-width: 768px) {
+        width: 6.5rem;
+      }
+    }
+    &--cyan {
+      &::before {
+        content: "";
+        background-color: $color-primary--Cyan;
+      }
+
+      @media (min-width: 1140px) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+      }
+    }
+
+    &--red {
+      &::before {
+        content: "";
+        background-color: $color-primary--Red;
+      }
+      @media (min-width: 1140px) {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+      }
+    }
+
+    &--yellow {
+      &::before {
+        content: "";
+        background-color: $color-primary--Orange;
+      }
+      @media (min-width: 1140px) {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+      }
+    }
+
+    &--blue {
+      &::before {
+        content: "";
+        background-color: $color-primary--Blue;
+      }
+      @media (min-width: 1140px) {
+        grid-column: 3 / 3;
+        grid-row: 1 / 3;
+      }
+    }
+  }
+}
+
+.attribution {
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+
+  &__link:link,
+  &__link:visited {
+    color: $color-primary--Blue;
+    text-transform: uppercase;
+    transition: all 0.2s;
+  }
+
+  &__link:hover,
+  &__link:active {
+    color: $color-primary--Cyan;
+  }
+}

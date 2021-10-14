@@ -1,0 +1,31 @@
+$color-primary--Red: hsl(0, 78%, 62%);
+$color-primary--Cyan: hsl(180, 62%, 55%);
+$color-primary--Orange: hsl(34, 97%, 64%);
+$color-primary--Blue: hsl(212, 86%, 64%);
+
+$color-secondary: hsl(229, 6%, 66%);
+$color-secondary-Light: hsl(0, 0%, 98%);
+$color-secondary-Dark: hsl(234, 12%, 34%);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background-color: $color-secondary-Light;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+}
